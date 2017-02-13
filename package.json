@@ -1,0 +1,62 @@
+{
+  "name": "potato-landing-page",
+  "version": "1.0.0",
+  "author": "Vasco Rola <info@vascorola.com>",
+  "homepage": "http://vascorola.com",
+  "description": "This is a Landing Page Challenge",
+  "keywords": [
+    "potato",
+    "landing page",
+    "html",
+    "css",
+    "challenge"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "echo Potato Landing Page Challenge is about to deploy.",
+    "postdeploy": "echo Potato Landing Page Challenge has been deployed.",
+    "preinstall": "echo Potato Landing Page Challenge is being installed.",
+    "postinstall": "node_modules/bower/bin/bower install"
+  },
+  "engines": {
+    "node": ">=5.3.0",
+    "npm": ">=3.5.2"
+  },
+  "dependencies": {
+    "bower": "~1.8.0",
+    "gulp": "~3.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "del": "^2.2.0",
+    "gulp": "~3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bytediff": "^1.0.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": ">=2.6.0",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-csso": "^1.0.1",
+    "gulp-gzip": ">=1.2.0",
+    "gulp-imagemin": ">=2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": ">=3.0.5",
+    "gulp-less-sourcemap": "^1.4.3",
+    "gulp-lesshint": "^1.0.0",
+    "gulp-notify": ">=2.2.0",
+    "gulp-progeny": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-responsive": "^1.2.1",
+    "gulp-rsync": "0.0.6",
+    "gulp-sharp": "^0.1.0",
+    "gulp-size": ">=2.0.0",
+    "gulp-sourcemaps": ">=1.6.0",
+    "gulp-uglify": ">=1.5.1",
+    "gulp-zopfli": "^1.0.0",
+    "imagemin-mozjpeg": ">=5.1.0",
+    "imagemin-pngquant": ">=4.2.0",
+    "jshint": "~2.8.0",
+    "lazypipe": ">=1.0.1",
+    "merge-stream": "^1.0.0"
+  }
+}

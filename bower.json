@@ -1,0 +1,21 @@
+{
+  "name": "potato-landing-page",
+  "version": "1.0.0",
+  "homepage": "http://github.com/vascorola/potato-landing-page",
+  "authors": [
+    "Vasco Rola"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/vendor",
+    "src/components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "fonts-raleway": "~0.0.4",
+    "cocoen": "^1.3.2",
+    "lightslider": "^1.1.6"
+  }
+}
